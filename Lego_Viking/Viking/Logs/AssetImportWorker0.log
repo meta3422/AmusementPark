@@ -15,11 +15,11 @@ D:/Github/GitHub/AmusementPark/Lego_Viking/Viking
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64596
+65130
 Successfully changed project path to: D:/Github/GitHub/AmusementPark/Lego_Viking/Viking
 D:/Github/GitHub/AmusementPark/Lego_Viking/Viking
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.24f1 (79c78de19888)
 [Subsystems] Discovering subsystems at path D:/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'D:/2020.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001032 seconds.
+Registered in 0.001075 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.487 seconds
+- Completed reload, in  0.510 seconds
 Domain Reload Profiling:
-	ReloadAssembly (488ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (510ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (373ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (393ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (137ms)
+			SetupLoadedEditorAssemblies (138ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (30ms)
 				BeforeProcessingInitializeOnLoad (14ms)
 				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003542 seconds.
+Registered in 0.003405 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.846 seconds
+- Completed reload, in  0.861 seconds
 Domain Reload Profiling:
-	ReloadAssembly (846ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (665ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
+			SetupTypeCache (243ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (243ms)
+			SetupLoadedEditorAssemblies (247ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (167ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (169ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.3 MB.
-System memory in use after: 71.4 MB.
+Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1934.
-Total: 3.027000 ms (FindLiveObjects: 0.202600 ms CreateObjectMapping: 0.035800 ms MarkObjects: 2.717300 ms  DeleteObjects: 0.069400 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1935.
+Total: 3.125700 ms (FindLiveObjects: 0.193000 ms CreateObjectMapping: 0.036800 ms MarkObjects: 2.807400 ms  DeleteObjects: 0.086600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,474 +131,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/art/Viking_attraction/Amusement_Park/Scenes/park/LightingData.asset
-  artifactKey: Guid(cdfeea88dd806f44b9a45e70cb59e70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/Scenes/park/LightingData.asset using Guid(cdfeea88dd806f44b9a45e70cb59e70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data.  Realtime Global Illumination cannot be used until the lighting data is rebuilt.
- -> (artifact id: '36684bf7b497b43ba71c221598d9b4cf') in 0.048326 seconds 
-  Import took 0.050766 seconds .
+  path: Assets/LegoLand/Viking/art/Viking_attraction/Amusement_Park/Scenes
+  artifactKey: Guid(55f4f1999af26534780ff1facb9c8744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegoLand/Viking/art/Viking_attraction/Amusement_Park/Scenes using Guid(55f4f1999af26534780ff1facb9c8744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe9f818c87611359a7a3e80bca292c3') in 0.011265 seconds 
+  Import took 0.014322 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.313894 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/Scenes/park/ReflectionProbe-0.exr
-  artifactKey: Guid(f6221f8985c84d747872a4494abbfa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/Scenes/park/ReflectionProbe-0.exr using Guid(f6221f8985c84d747872a4494abbfa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e746d54a1c93e6f56ec478365831ee0') in 0.070810 seconds 
-  Import took 0.073439 seconds .
+  Time since last request: 0.000212 seconds.
+  path: Assets/LegoLand/Viking/art/Viking_attraction/Amusement_Park
+  artifactKey: Guid(ce8d331a28458b744a3e89fe3e9e3fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegoLand/Viking/art/Viking_attraction/Amusement_Park using Guid(ce8d331a28458b744a3e89fe3e9e3fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddb928bb64b0959c6165e69303d643b') in 0.006647 seconds 
+  Import took 0.008963 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/Scenes/park/ReflectionProbe-1.exr
-  artifactKey: Guid(6854309a4fd866d459036a421aade017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/Scenes/park/ReflectionProbe-1.exr using Guid(6854309a4fd866d459036a421aade017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdb0c8b9ac55033d463d1bc2ffa6082') in 0.015295 seconds 
-  Import took 0.017348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.782004 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb0d9a479db403adf923ad859b53b31') in 0.006733 seconds 
-  Import took 0.009227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.345781 seconds.
-  path: Assets/Scenes/Effect.unity
-  artifactKey: Guid(db98a1f5809dcba49bc66b02521a8e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Effect.unity using Guid(db98a1f5809dcba49bc66b02521a8e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863326c48c87dd3bc151e6f16d645cb1') in 0.006580 seconds 
-  Import took 0.008902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.424469 seconds.
-  path: Assets/art/Item/PolygonParticleFX/Models/FX_Healthcube_01.fbx
-  artifactKey: Guid(6d5a0bc0860313841bc19d04b364d8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Item/PolygonParticleFX/Models/FX_Healthcube_01.fbx using Guid(6d5a0bc0860313841bc19d04b364d8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34bea57e5242ac62ea039a31af56ade') in 0.286274 seconds 
-  Import took 0.288799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.231000 seconds.
-  path: Assets/art/Item/PolygonParticleFX/Models/FX_Arrow_02.fbx
-  artifactKey: Guid(7458e01912c97e64fa0518ea6abb8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Item/PolygonParticleFX/Models/FX_Arrow_02.fbx using Guid(7458e01912c97e64fa0518ea6abb8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86240a2334aa22c2e7bfecc3f27ec7ff') in 0.016364 seconds 
-  Import took 0.018904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.387178 seconds.
-  path: Assets/art/Effect/PolygonParticleFX/Models/FX_Cylinder_01.fbx
-  artifactKey: Guid(372ae975cf6643444ae1c6ef9cbd981f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Effect/PolygonParticleFX/Models/FX_Cylinder_01.fbx using Guid(372ae975cf6643444ae1c6ef9cbd981f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69aa3efbe1e4e87119374107da74e5fc') in 0.017410 seconds 
-  Import took 0.019888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.529704 seconds.
-  path: Assets/art/Item/PolygonParticleFX/Models/FX_Ammo_01.fbx
-  artifactKey: Guid(5b500ac07e3486a48ba9900caae64fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Item/PolygonParticleFX/Models/FX_Ammo_01.fbx using Guid(5b500ac07e3486a48ba9900caae64fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc74dc0d383fdd9d567570c48d7c0827') in 0.017270 seconds 
-  Import took 0.019873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.141491 seconds.
-  path: Assets/art/Character/BattleRoyaleHeroesPBR
-  artifactKey: Guid(e36a97fae9ed3514d88fb71622de01a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Character/BattleRoyaleHeroesPBR using Guid(e36a97fae9ed3514d88fb71622de01a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004069bc8eccad34f6e2e36d0c2d783a') in 0.006865 seconds 
-  Import took 0.009226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.072465 seconds.
-  path: Assets/art/Character/BattleRoyaleHeroesPBR/Scene
-  artifactKey: Guid(1eb4b38025f55e448b0220202db93e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Character/BattleRoyaleHeroesPBR/Scene using Guid(1eb4b38025f55e448b0220202db93e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f7778bf111bc0bfbfd0d86a5ae3d79') in 0.006085 seconds 
-  Import took 0.008450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.605353 seconds.
-  path: Assets/art/Character/BattleRoyaleHeroesPBR/Scene/Character.unity
-  artifactKey: Guid(b082b2242d38c5142aeace1edc2d9a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Character/BattleRoyaleHeroesPBR/Scene/Character.unity using Guid(b082b2242d38c5142aeace1edc2d9a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a8aba12caf73fdd793b47e32bbd8d4') in 0.006431 seconds 
-  Import took 0.008795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.974092 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/Scenes/park.unity
-  artifactKey: Guid(fcd05e287a0d473488cccc02e50b8344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/Scenes/park.unity using Guid(fcd05e287a0d473488cccc02e50b8344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac5cb2cdf02d58cfbdb69595c821924') in 0.007297 seconds 
-  Import took 0.009780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.737378 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/models/environment
-  artifactKey: Guid(dfb5c04fba6496946a4697fb993c7df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/models/environment using Guid(dfb5c04fba6496946a4697fb993c7df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63844ccfa07e665ecaec36ee796da93') in 0.006243 seconds 
-  Import took 0.008752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.699191 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/models/environment/prefab
-  artifactKey: Guid(9a49522ebdb24374c8af6853b5af8df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/models/environment/prefab using Guid(9a49522ebdb24374c8af6853b5af8df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878c26f80251ea45dd061a4195dba8fe') in 0.005984 seconds 
-  Import took 0.008376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073420 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/models/environment/prefab/Ship_attraction_1_2.prefab
-  artifactKey: Guid(f6cc7d0f6406fd742a7222cba1ded421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/models/environment/prefab/Ship_attraction_1_2.prefab using Guid(f6cc7d0f6406fd742a7222cba1ded421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc35b864b415e1bc04d17f00bd3472f') in 0.049124 seconds 
-  Import took 0.051651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/models/environment/prefab/Ship_attraction_1_4_1.prefab
-  artifactKey: Guid(f21db60b2c6b1b94faeb606602273bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/models/environment/prefab/Ship_attraction_1_4_1.prefab using Guid(f21db60b2c6b1b94faeb606602273bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea85966c5602dfecf4d864e3c42e3b3b') in 0.023721 seconds 
-  Import took 0.025951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/models/environment/prefab/Ship_attraction_1_3.prefab
-  artifactKey: Guid(909e9790090d6ec4c9d6d44d9fbd2149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/models/environment/prefab/Ship_attraction_1_3.prefab using Guid(909e9790090d6ec4c9d6d44d9fbd2149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d130171107bb076cbea670f7b125744') in 0.020339 seconds 
-  Import took 0.022603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.640846 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/models/attractions
-  artifactKey: Guid(7ac90fcf519a76a4cb26eadbe4822c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/models/attractions using Guid(7ac90fcf519a76a4cb26eadbe4822c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85269dfc9ed640854da4f154011bacb3') in 0.009163 seconds 
-  Import took 0.011512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063200 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/models/attractions/Ship_attraction.fbx
-  artifactKey: Guid(5ddc5a4a00709e845b383d25bc2b5387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/models/attractions/Ship_attraction.fbx using Guid(5ddc5a4a00709e845b383d25bc2b5387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0df7ee2bf3a9c4178946d95930bed6') in 0.134727 seconds 
-  Import took 0.139448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.339942 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/models/attractions/textures
-  artifactKey: Guid(0f7e47606cb0ce643ade6db0a47560db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/models/attractions/textures using Guid(0f7e47606cb0ce643ade6db0a47560db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b05ea2bcee801f39bd7fe9b0cecd2d7') in 0.006418 seconds 
-  Import took 0.008859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.335780 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/models/attractions/prefab
-  artifactKey: Guid(71e5a4bd85dfac7439b392584bdb160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/models/attractions/prefab using Guid(71e5a4bd85dfac7439b392584bdb160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287cd7a7e4583ecac7c380a20b532abd') in 0.002460 seconds 
-  Import took 0.005070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.482572 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/models/attractions/Materials
-  artifactKey: Guid(f040d7041d1355f4295c27faf4f91e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/models/attractions/Materials using Guid(f040d7041d1355f4295c27faf4f91e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2906d6390461ecef080a9e7c4ef9d82a') in 0.006328 seconds 
-  Import took 0.008723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.369045 seconds.
-  path: Assets/art/Viking_attraction/Amusement_Park/models/attractions/prefab/Ship_attraction.prefab
-  artifactKey: Guid(30d1fe891e969af42b4ab41bfa738aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Viking_attraction/Amusement_Park/models/attractions/prefab/Ship_attraction.prefab using Guid(30d1fe891e969af42b4ab41bfa738aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06335818be9204cb728eaccd12a5d712') in 0.032889 seconds 
-  Import took 0.036588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.555621 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(480c9df0346e90747ae473e85dffdd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(480c9df0346e90747ae473e85dffdd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935735eea76c538affd5d8ca12c77e13') in 0.006271 seconds 
-  Import took 0.008745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.829773 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(65db5e86f5aa239499a17869108ae86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(65db5e86f5aa239499a17869108ae86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead2a23af0f1929124a9eecc7310d215') in 0.006980 seconds 
-  Import took 0.009664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.141976 seconds.
-  path: Assets/art/Effect/PolygonParticleFX
-  artifactKey: Guid(a46b1dabfd5270c48bfd22f808e8678e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Effect/PolygonParticleFX using Guid(a46b1dabfd5270c48bfd22f808e8678e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79f4f5fc39b0ef35422e4557f3689db') in 0.006551 seconds 
-  Import took 0.009010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.843994 seconds.
-  path: Assets/art/Effect/PolygonParticleFX/New Folder
-  artifactKey: Guid(91dff42f830c45f4c864cba2012b5c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Effect/PolygonParticleFX/New Folder using Guid(91dff42f830c45f4c864cba2012b5c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75789cdaa667cc611896fe5e0c54faf3') in 0.006572 seconds 
-  Import took 0.009213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.253484 seconds.
-  path: Assets/art/Effect/PolygonParticleFX/Scene
-  artifactKey: Guid(91dff42f830c45f4c864cba2012b5c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/art/Effect/PolygonParticleFX/Scene using Guid(91dff42f830c45f4c864cba2012b5c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd987f532e2a05603c74d1238bfeaac') in 0.002459 seconds 
-  Import took 0.004967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.469676 seconds.
-  path: Assets/LegoLand
-  artifactKey: Guid(34b692a126030f24c951d914e52fc93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand using Guid(34b692a126030f24c951d914e52fc93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590439e5a03be501ded33e495d413159') in 0.006815 seconds 
-  Import took 0.009677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.833140 seconds.
-  path: Assets/LegoLand/Viking
-  artifactKey: Guid(18f25b1e98305ad4ca6b9af17534422d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking using Guid(18f25b1e98305ad4ca6b9af17534422d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366b8eb040a309f872e30a66ba832027') in 0.006775 seconds 
-  Import took 0.009299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.084483 seconds.
-  path: Assets/LegoLand/Viking/src
-  artifactKey: Guid(0ccfdd034f78a1b4eb71ad88e802a83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/src using Guid(0ccfdd034f78a1b4eb71ad88e802a83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b9e4c9366ab8d720c93bf080b228ab') in 0.006353 seconds 
-  Import took 0.008926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.194570 seconds.
-  path: Assets/LegoLand/Viking/src/Player
-  artifactKey: Guid(285c6ce1e3047314f929a664857f6f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/src/Player using Guid(285c6ce1e3047314f929a664857f6f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edeec26771e538cb65729018ab651fe') in 0.007198 seconds 
-  Import took 0.009658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.859936 seconds.
-  path: Assets/LegoLand/Viking/src/Player/Player.cs
-  artifactKey: Guid(2545112fdae98df4c8736a964460d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/src/Player/Player.cs using Guid(2545112fdae98df4c8736a964460d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3b1be84f2723103bbe772aa3e6ccb8') in 0.038552 seconds 
-  Import took 0.041209 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003622 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.801 seconds
-Domain Reload Profiling:
-	ReloadAssembly (801ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (650ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (228ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.0 MB.
-System memory in use after: 75.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1973.
-Total: 2.565400 ms (FindLiveObjects: 0.171200 ms CreateObjectMapping: 0.035500 ms MarkObjects: 2.339400 ms  DeleteObjects: 0.018400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 44.647671 seconds.
-  path: Assets/LegoLand/Viking/art/Item/PolygonParticleFX/Prefabs
-  artifactKey: Guid(f27bb36751d5b28479e4860e909afcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Item/PolygonParticleFX/Prefabs using Guid(f27bb36751d5b28479e4860e909afcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276ad49152546106ec6124b1acf02374') in 0.008414 seconds 
-  Import took 0.011029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059453 seconds.
-  path: Assets/LegoLand/Viking/art/Item/PolygonParticleFX/Prefabs/FX_Pickup_Ammo_01.prefab
-  artifactKey: Guid(c25375709a7d2e24ba8b622405bfc216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Item/PolygonParticleFX/Prefabs/FX_Pickup_Ammo_01.prefab using Guid(c25375709a7d2e24ba8b622405bfc216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3101bd6c69210a3ff94ba40bc3c185a') in 0.053278 seconds 
-  Import took 0.056113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/LegoLand/Viking/art/Item/PolygonParticleFX/Prefabs/FX_Pickup_Boost_01.prefab
-  artifactKey: Guid(a5bc136c5e87fb14888b1af7d82802f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Item/PolygonParticleFX/Prefabs/FX_Pickup_Boost_01.prefab using Guid(a5bc136c5e87fb14888b1af7d82802f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da5cd77f700d0a58615abf332412da2') in 0.017148 seconds 
-  Import took 0.019745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/LegoLand/Viking/art/Item/PolygonParticleFX/Prefabs/FX_Pickup_Health_01.prefab
-  artifactKey: Guid(acc0fdf52f17a6140bd3484d66046ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Item/PolygonParticleFX/Prefabs/FX_Pickup_Health_01.prefab using Guid(acc0fdf52f17a6140bd3484d66046ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4601aea2b4e9e445298d529b19cd5f7f') in 0.019050 seconds 
-  Import took 0.021752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.019894 seconds.
-  path: Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Prefabs/FX_Heal_01.prefab
-  artifactKey: Guid(c7f93a0255162fd47bbe40874f339bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Prefabs/FX_Heal_01.prefab using Guid(c7f93a0255162fd47bbe40874f339bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b54a8f1a8bed40a6dc4ff21b274381') in 0.012547 seconds 
-  Import took 0.015258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Prefabs/FX_StarStunned_02.prefab
-  artifactKey: Guid(edf12e91890b8434eb8ea701f9bc40a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Prefabs/FX_StarStunned_02.prefab using Guid(edf12e91890b8434eb8ea701f9bc40a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576b3e92e8dbf20dcde2cb580490e8bf') in 0.012780 seconds 
-  Import took 0.015355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.482368 seconds.
-  path: Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Models/FX_Sphere_03.fbx
-  artifactKey: Guid(357d53aa062ebb04e8e5aaa195e1a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Models/FX_Sphere_03.fbx using Guid(357d53aa062ebb04e8e5aaa195e1a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bca2ae6b536afb386b9ead90585ceb0') in 0.030405 seconds 
-  Import took 0.033064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Models/FX_Star.fbx
-  artifactKey: Guid(e85294d06423fe64c8ff30e832f26a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Models/FX_Star.fbx using Guid(e85294d06423fe64c8ff30e832f26a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a132379d2b6a2a09b6870dee7679e8') in 0.017247 seconds 
-  Import took 0.019667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.363280 seconds.
-  path: Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Materials/PolygonParticleFX_Additive_Soft.mat
-  artifactKey: Guid(f42a357a923c92f4b9818c765c8b2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Materials/PolygonParticleFX_Additive_Soft.mat using Guid(f42a357a923c92f4b9818c765c8b2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7112ce3879c39a2c3c7537d91965ff8') in 0.025230 seconds 
-  Import took 0.027780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Materials/PolygonParticleFX_Sparkle.mat
-  artifactKey: Guid(2372c82814ea2ed41aed3d611d81953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Materials/PolygonParticleFX_Sparkle.mat using Guid(2372c82814ea2ed41aed3d611d81953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2490c4cc29c1d918ae7cbd3a0f2ec3d9') in 0.014592 seconds 
-  Import took 0.016892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Materials/PolygonParticleFX_Fumes_01.mat
-  artifactKey: Guid(4c5f13e6a6061214697a61fa94a0e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Effect/PolygonParticleFX/Materials/PolygonParticleFX_Fumes_01.mat using Guid(4c5f13e6a6061214697a61fa94a0e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657593edfc654a70e793591bd1b64b10') in 0.014198 seconds 
-  Import took 0.016626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.042533 seconds.
-  path: Assets/LegoLand/Viking/art/Item/PolygonParticleFX
-  artifactKey: Guid(69de04dfab0f500469c4905bb9bb1d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Item/PolygonParticleFX using Guid(69de04dfab0f500469c4905bb9bb1d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500e4dc5b1168853b1fbbbd31803c2ae') in 0.002514 seconds 
-  Import took 0.005339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.441012 seconds.
-  path: Assets/LegoLand/Viking/art/Item/PolygonParticleFX/Scene
-  artifactKey: Guid(c186b6ecb847fe440bad4fc34c12376d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LegoLand/Viking/art/Item/PolygonParticleFX/Scene using Guid(c186b6ecb847fe440bad4fc34c12376d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6ae3c0f36d48124bf69f3f40b544cc') in 0.002376 seconds 
-  Import took 0.004903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.924245 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a12b45cd4d9e910a44069497c48d51') in 0.003079 seconds 
-  Import took 0.005705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.878602 seconds.
-  path: Assets/Scenes/Item.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Item.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a142b8a6269bef61bff01f0034c4b88') in 0.006880 seconds 
-  Import took 0.009433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.735701 seconds.
-  path: Assets/Scenes/YM_Scene
-  artifactKey: Guid(bdbf19fb8c8fd154f80072886dfc34a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/YM_Scene using Guid(bdbf19fb8c8fd154f80072886dfc34a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5501386de51282fa539096245a78a6') in 0.007230 seconds 
-  Import took 0.009676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.626681 seconds.
-  path: Assets/Scenes/SH_Scene
-  artifactKey: Guid(0816403b8047a5348a33c98cde9c6020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SH_Scene using Guid(0816403b8047a5348a33c98cde9c6020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daedc3ff9d45681e76750aead158e664') in 0.006661 seconds 
-  Import took 0.009132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.226783 seconds.
-  path: Assets/Scenes/New Scene 1.unity
-  artifactKey: Guid(30e9051e657a311488a148076202e74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene 1.unity using Guid(30e9051e657a311488a148076202e74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb953b376cd3801aa39994e099ea6a8') in 0.007112 seconds 
-  Import took 0.009777 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
