@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_1_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1600810930798338, guid: 36038f798311aff4aa65809fafce1fa9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4318967092581542, guid: 36038f798311aff4aa65809fafce1fa9, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -190,6 +194,10 @@ PrefabInstance:
     - target: {fileID: 1002908163032604, guid: 92ffd06f6463fd347aae58a2ababf8cf, type: 3}
       propertyPath: m_Name
       value: Rail_5_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002908163032604, guid: 92ffd06f6463fd347aae58a2ababf8cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4007196937661450, guid: 92ffd06f6463fd347aae58a2ababf8cf, type: 3}
       propertyPath: m_RootOrder
@@ -248,6 +256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_3_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1704508292895398, guid: 92b621630c254664caa7d9408eaa62b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4100867171451420, guid: 92b621630c254664caa7d9408eaa62b3, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -301,9 +313,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1138103269023994, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1243771750442162, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
       propertyPath: m_Name
       value: Roller_Coaster
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243771750442162, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719591585830922, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1862206042628952, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999119104540424, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4718775819968332, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
       propertyPath: m_RootOrder
@@ -347,6 +379,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4718775819968332, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734324999521542, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734324999521542, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 64018572814121590, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64200941951198920, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64474747796465262, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64626245932013524, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64865376887514058, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64945748494279824, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+      propertyPath: m_Convex
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -419,6 +483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_5_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1861042366826098, guid: dce26eeee15fa234ca0a449e36e02647, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4185998947698874, guid: dce26eeee15fa234ca0a449e36e02647, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -465,6 +533,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dce26eeee15fa234ca0a449e36e02647, type: 3}
+--- !u!1 &1140261109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1719591585830922, guid: 7e523faacf0cf114895c05b2981642f1, type: 3}
+  m_PrefabInstance: {fileID: 822549959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1140261114
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140261109}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1178380658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -475,6 +564,10 @@ PrefabInstance:
     - target: {fileID: 1029364120185058, guid: ef3c4ee33dc79b041ad942b7fbbaf594, type: 3}
       propertyPath: m_Name
       value: Rail_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1029364120185058, guid: ef3c4ee33dc79b041ad942b7fbbaf594, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4980114419155262, guid: ef3c4ee33dc79b041ad942b7fbbaf594, type: 3}
       propertyPath: m_RootOrder
@@ -533,6 +626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_8
       objectReference: {fileID: 0}
+    - target: {fileID: 1978700124219362, guid: 77ade82989bfe714d8b18f028f5a68ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4576271844784588, guid: 77ade82989bfe714d8b18f028f5a68ab, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -589,6 +686,10 @@ PrefabInstance:
     - target: {fileID: 1582705744954554, guid: ca887d8b8b71f354f96ecd48bdc8cc9e, type: 3}
       propertyPath: m_Name
       value: Rail_1_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1582705744954554, guid: ca887d8b8b71f354f96ecd48bdc8cc9e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4266299013568014, guid: ca887d8b8b71f354f96ecd48bdc8cc9e, type: 3}
       propertyPath: m_RootOrder
@@ -647,6 +748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_7
       objectReference: {fileID: 0}
+    - target: {fileID: 1774297230687090, guid: ef28da00961ea064196a69fa38832b3c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4485755258112020, guid: ef28da00961ea064196a69fa38832b3c, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -703,6 +808,10 @@ PrefabInstance:
     - target: {fileID: 1785401729520198, guid: 68b3368176e626e419042d84a4c548d9, type: 3}
       propertyPath: m_Name
       value: Rail_1_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785401729520198, guid: 68b3368176e626e419042d84a4c548d9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4499551219456214, guid: 68b3368176e626e419042d84a4c548d9, type: 3}
       propertyPath: m_RootOrder
@@ -761,6 +870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_10
       objectReference: {fileID: 0}
+    - target: {fileID: 1844186425283130, guid: 7b4f41c63064de145ae2c9d109579b8a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4145402128590238, guid: 7b4f41c63064de145ae2c9d109579b8a, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -817,6 +930,10 @@ PrefabInstance:
     - target: {fileID: 1993916750547898, guid: f1e012a3bc50db741b6ee49aba06d1c8, type: 3}
       propertyPath: m_Name
       value: Rail_9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993916750547898, guid: f1e012a3bc50db741b6ee49aba06d1c8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4323097830993254, guid: f1e012a3bc50db741b6ee49aba06d1c8, type: 3}
       propertyPath: m_RootOrder
@@ -875,6 +992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_3_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1099313772149640, guid: f11760e68d9128142a44cdf11283eca8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4703394037621778, guid: f11760e68d9128142a44cdf11283eca8, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -919,6 +1040,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 64209875262590376, guid: f11760e68d9128142a44cdf11283eca8, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64704158862267632, guid: f11760e68d9128142a44cdf11283eca8, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f11760e68d9128142a44cdf11283eca8, type: 3}
 --- !u!1001 &1570760906
@@ -931,6 +1060,10 @@ PrefabInstance:
     - target: {fileID: 1018292066278412, guid: 908451db2f1c46a48af71dcd8b419ee0, type: 3}
       propertyPath: m_Name
       value: Rail_2_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018292066278412, guid: 908451db2f1c46a48af71dcd8b419ee0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4908001942940930, guid: 908451db2f1c46a48af71dcd8b419ee0, type: 3}
       propertyPath: m_RootOrder
@@ -1046,6 +1179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_4_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1810553781440678, guid: 03fa5f11c6649a94a96b696d77df453c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4409891402571762, guid: 03fa5f11c6649a94a96b696d77df453c, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1103,6 +1240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_4_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1974699552791134, guid: dc0da583ff242ed4ba6e1a44ddc97341, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4832488756703488, guid: dc0da583ff242ed4ba6e1a44ddc97341, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -1147,6 +1288,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 64250353917994024, guid: dc0da583ff242ed4ba6e1a44ddc97341, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc0da583ff242ed4ba6e1a44ddc97341, type: 3}
 --- !u!1001 &1853309391
@@ -1159,6 +1304,10 @@ PrefabInstance:
     - target: {fileID: 1273922228905076, guid: 8588c7300eb8bbc4bba07b624f5756ac, type: 3}
       propertyPath: m_Name
       value: Rail_2_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273922228905076, guid: 8588c7300eb8bbc4bba07b624f5756ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4883857459129964, guid: 8588c7300eb8bbc4bba07b624f5756ac, type: 3}
       propertyPath: m_RootOrder
@@ -1216,6 +1365,10 @@ PrefabInstance:
     - target: {fileID: 1468942959039556, guid: 20132a4e99564de45a1a8cf8092ef64f, type: 3}
       propertyPath: m_Name
       value: Rail_1_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1468942959039556, guid: 20132a4e99564de45a1a8cf8092ef64f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4074007860991008, guid: 20132a4e99564de45a1a8cf8092ef64f, type: 3}
       propertyPath: m_RootOrder
