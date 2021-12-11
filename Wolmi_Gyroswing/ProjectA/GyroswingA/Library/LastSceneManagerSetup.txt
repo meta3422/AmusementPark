@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Wolmi/GyroswingA/Scene/GyroswingA.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
