@@ -58,3 +58,8 @@
 # Crashlytics generated file
 /*/crashlytics-build.properties
 
+
+# Lotte/DropTower ignores
+/Lotte_DropTower/Assets/Externals/Attraction Resource 1/Scenes/Demo Scene/LightingData.asset
+/Lotte_DropTower/Assets/Externals/Game Result Effects/3D Games Effects Pack Free/_Showroom/Textures/Hard_Surface_01_Metal.tif
+
