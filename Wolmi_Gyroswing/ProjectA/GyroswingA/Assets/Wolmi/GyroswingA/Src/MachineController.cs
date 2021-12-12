@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class MachineController : MonoBehaviour
+public class MachineController : MovingThings
 {
     [SerializeField] GameObject swingBar;
     [SerializeField] GameObject stage;
-
+    
     Vector3 originPositionOfStage;
     float swingRadius;
 
@@ -22,15 +22,20 @@ public class MachineController : MonoBehaviour
 
     void FixedUpdate()
     {
-        SetSwingAngleCur();
-        SwingBar();
-        SwingStage();
-        FlipStage();
-        SpinStage();
-        ChangeDirection();
+        if (!IsPaused())
+        {
+            SetSwingAngleCur();
+            SwingBar();
+            SwingStage();
+            FlipStage();
+            SpinStage();
+            ChangeDirection();
+
+            // if (IsStopped())  back to the original position
+        }
     }
 
-    public void InitMachine()
+    public void InitMachine(float swingSpeed, float swingAngleMax, float spinSpeed)
     {
         stage.GetComponent<BoxCollider>().center = new Vector3(0.0f , 0.22f, 0.0f);
         stage.GetComponent<BoxCollider>().size = new Vector3(10.0f , 0.4f, 10.0f);
@@ -38,7 +43,7 @@ public class MachineController : MonoBehaviour
         originPositionOfStage = stage.transform.position;
         swingRadius = (swingBar.transform.position.y - stage.transform.position.y);
 
-        SetMachineAdjustmentValue(5.0f, 30.0f, 5.0f);
+        SetMachineAdjustmentValue(swingSpeed, swingAngleMax, spinSpeed);
         swingPowerMinPercent = 0.3f; // min 30% will be same power 
 
         _changeDir = false;
@@ -46,6 +51,8 @@ public class MachineController : MonoBehaviour
         _swingAngleCur = 0.0f;
         _swingAngleTotal = 0.0f;
         _swingPowerCur = 1.0f;
+
+        InitMovingThings();
     }
 
     public void SetMachineAdjustmentValue(float swingSpeed, float swingAngleMax, float spinSpeed)
@@ -105,7 +112,7 @@ public class MachineController : MonoBehaviour
 
     void SwingBar()
     {
-        // forward Axis - global
+        // forward - global
         if (_isSwingRight)
             swingBar.transform.Rotate(Vector3.left, _swingAngleCur, Space.World);
         else
@@ -127,13 +134,13 @@ public class MachineController : MonoBehaviour
 
     void SpinStage()
     {
-        // up Axis - local 
+        // up - local 
         stage.transform.Rotate(Vector3.up, spinSpeed * Time.deltaTime, Space.Self);
     }
 
     void FlipStage()
     {
-        // forward Axis - global
+        // forward - global
         if (_isSwingRight)
             stage.transform.Rotate(Vector3.left, _swingAngleCur, Space.World);
         else
@@ -148,7 +155,6 @@ public class MachineController : MonoBehaviour
             _changeDir = false;
         }
     }
-
     void OnDrawGizmos()
     {
         //Gizmos.color = Color.yellow;

@@ -10,32 +10,36 @@ public class UIController : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI timeText;
     [SerializeField] TextMeshProUGUI enemyCountText;
+    [SerializeField] GameObject pauseButton;
 
     float secondsMax;
-    int enemyMax;
+    int monsterMax;
 
     public void InitUI(int secondsMax, int enemyMax)
     {
-        this.secondsMax = secondsMax;
-        this.enemyMax = enemyMax;
+        InteractiveUIObject maker = new InteractiveUIObject();
+        maker.MakeUIObjectWork(pauseButton);
 
-        timeText.text = GetCurrentTimeString(0.0f);
+        this.secondsMax = secondsMax;
+        this.monsterMax = enemyMax;
+
+        timeText.text = GetLeftTimeString(0.0f);
         enemyCountText.text = new StringBuilder("남은 적 0 / " + enemyMax).ToString();
     }
 
-    public void UpdateTime(float time)
+    public void UpdateTime(float curTime)
     {
-        timeText.text = GetCurrentTimeString(time);
+        timeText.text = GetLeftTimeString(curTime);
     }
 
-    public void UpdateEnemyCount(int enemy)
+    public void UpdateMonsterCount(int monsterCur)
     {
-        enemyCountText.text = new StringBuilder("남은 적 " + enemy + " / " + enemyMax).ToString();
+        enemyCountText.text = new StringBuilder("남은 적 " + monsterCur + " / " + monsterMax).ToString();
     }
 
-    string GetCurrentTimeString(float seconds)
+    string GetLeftTimeString(float seconds)
     {
-        int sec = Mathf.FloorToInt(seconds);
+        int sec = Mathf.FloorToInt(secondsMax - seconds);
         int min = 0;
 
         if (sec >= 60)

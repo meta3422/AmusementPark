@@ -415,7 +415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 343609529}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,8 +791,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 343609529}
     m_Modifications:
     - target: {fileID: 1623643683682426, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623643683682426, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792267159542694, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1792267159542694, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -849,12 +857,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 343609529}
     m_Modifications:
     - target: {fileID: 1623643683682426, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623643683682426, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1792267159542694, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
       propertyPath: m_Name
       value: palm_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792267159542694, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1792267159542694, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1000,9 +1016,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 343609529}
     m_Modifications:
+    - target: {fileID: 1623643683682426, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1792267159542694, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
       propertyPath: m_Name
       value: palm_1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792267159542694, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4340289788473406, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
       propertyPath: m_RootOrder
@@ -1232,8 +1256,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 343609529}
     m_Modifications:
     - target: {fileID: 1010478549847372, guid: 9f08e203fb1e7f44ba3454c287bbc01f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1010478549847372, guid: 9f08e203fb1e7f44ba3454c287bbc01f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038079071738028, guid: 9f08e203fb1e7f44ba3454c287bbc01f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1038079071738028, guid: 9f08e203fb1e7f44ba3454c287bbc01f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1379,6 +1411,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 343609529}
     m_Modifications:
+    - target: {fileID: 1623643683682426, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792267159542694, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4340289788473406, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1435,7 +1475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 703476747}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cactus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1469,7 +1509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 709973944}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2588,7 +2628,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1414662808}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2857,12 +2897,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 343609529}
     m_Modifications:
     - target: {fileID: 1623643683682426, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623643683682426, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1792267159542694, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
       propertyPath: m_Name
       value: palm_1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792267159542694, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1792267159542694, guid: 0e483824c883e22409e5db2c8de37680, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3535,12 +3583,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 343609529}
     m_Modifications:
     - target: {fileID: 1010478549847372, guid: 9f08e203fb1e7f44ba3454c287bbc01f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1010478549847372, guid: 9f08e203fb1e7f44ba3454c287bbc01f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1038079071738028, guid: 9f08e203fb1e7f44ba3454c287bbc01f, type: 3}
       propertyPath: m_Name
       value: palm_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038079071738028, guid: 9f08e203fb1e7f44ba3454c287bbc01f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1038079071738028, guid: 9f08e203fb1e7f44ba3454c287bbc01f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3728,6 +3784,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4857308247567546, guid: eb00302873a905c40af5b8546b13f171, type: 3}
   m_PrefabInstance: {fileID: 1838743882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1854217934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4760714730062096528, guid: 95f0d850e5685af408d24b59faf4f301, type: 3}
+  m_PrefabInstance: {fileID: 4761959376273781871}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2047440413
 PrefabInstance:
@@ -4142,7 +4203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 40560687729416040, guid: ff99b704540970243b568b3c3a5e71d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.58
+      value: -30.31
       objectReference: {fileID: 0}
     - target: {fileID: 40560687729416040, guid: ff99b704540970243b568b3c3a5e71d0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4184,6 +4245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 40560687729416053, guid: ff99b704540970243b568b3c3a5e71d0, type: 3}
+      propertyPath: stage
+      value: 
+      objectReference: {fileID: 1854217934}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff99b704540970243b568b3c3a5e71d0, type: 3}
 --- !u!1001 &4046827399231631571
