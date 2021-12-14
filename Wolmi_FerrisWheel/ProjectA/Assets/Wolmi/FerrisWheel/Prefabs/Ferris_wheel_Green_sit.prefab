@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4883023466992887489}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 8.323366, z: -11.347379}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4888041443605992221}
@@ -109,7 +109,6 @@ GameObject:
   - component: {fileID: 4888041443605992221}
   - component: {fileID: 4878148377467013531}
   - component: {fileID: 4870146725793823759}
-  - component: {fileID: 4838749509935683575}
   m_Layer: 0
   m_Name: Ferris_wheel_door
   m_TagString: Untagged
@@ -181,17 +180,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4838749509935683575
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4883775101432551435}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300070, guid: 56ea63af2e68c1e44ad80f98e38b1f93, type: 3}

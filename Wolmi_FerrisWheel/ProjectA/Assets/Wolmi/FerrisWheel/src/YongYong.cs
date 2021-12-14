@@ -1,18 +1,24 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class YongYong : MonoBehaviour
 {
     private LineRenderer lr;
+    private Rigidbody rb;
     
     private bool isDrag;
     private Vector3 firstMousePosition;
-    
-    [SerializeField] private Vector3 throwDir;
+    private Vector3 throwDir;
+
+    [SerializeField] private float power;
+
+    private bool isCollide;
 
     private void Awake()
     {
         lr = GetComponent<LineRenderer>();
+        rb = GetComponent<Rigidbody>();
     }
 
     private void Start()
@@ -53,7 +59,33 @@ public class YongYong : MonoBehaviour
             
             lr.SetPosition(1, Vector3.zero);
             
-            throwDir = Vector3.zero;
+            Throw();
+        }
+    }
+
+    private void Throw()
+    {
+        rb.isKinematic = false;
+        rb.AddForce(throwDir * power);
+        rb.useGravity = true;
+        throwDir = Vector3.zero;
+    }
+
+    private IEnumerator DisableCor()
+    {
+        yield return new WaitForSeconds(10.0f);
+        Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (!isCollide)
+        {
+            Debug.Log("Call Disable Cor");
+            isCollide = true;
+            GameManager.Instance.CreateNewYongYong();
+            StartCoroutine(DisableCor());
+            enabled = false;
         }
     }
 }

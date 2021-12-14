@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6455212523053665817}
   - component: {fileID: 6479904090106994251}
   - component: {fileID: 6469743260330033527}
+  - component: {fileID: 7465078028511794779}
   m_Layer: 0
   m_Name: Ferris_wheel_Red_sit
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6457624586285157117}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 4.857154, z: -6.135989}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6452335309982712399}
@@ -83,6 +84,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7465078028511794779
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6457624586285157117}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300072, guid: 56ea63af2e68c1e44ad80f98e38b1f93, type: 3}
 --- !u!1 &6457908698410298077
 GameObject:
   m_ObjectHideFlags: 0
