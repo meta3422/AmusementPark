@@ -13,7 +13,7 @@ https://classroom.google.com/c/MzE1MjA0ODc4NzUy/a/NDM5MTIyNDMzNjk1/details
 >> 
 >> 바이킹 : 백인해 (dmdkdkdkr)
 
-레고랜드 기획 : 권호정, 강개준, 박성화, 한태우
+레고랜드 기획 : 권호정, 강해준, 박성화, 한태우
 >> 바이킹 : 이수현(Susu-kr), 권영민(KWONYEONGMIN)
 >>
 >>롤러코스터A : 전민용(jljl73)
