@@ -13,15 +13,15 @@ public class MissileSpawner : MonoBehaviour
     {
         while (true)
         {
-            transform.position = new Vector3( Random.Range(-Range, Range)
+            transform.position = new Vector3(Random.Range(-Range, Range)
                                            , transform.position.y,
                                             transform.position.z);
             GameObject obj = Instantiate(
-                                                        Missiles[Random.Range(0,Missiles.Length)], 
+                                                        Missiles[Random.Range(0, Missiles.Length)],
                                                         transform.position,
-                                                        Quaternion.Euler(90.0f,0,0)); //object 생성
-            
-            Destroy(obj, Lifetime);
+                                                        Quaternion.Euler(90.0f, 0, 0)); //object 생성
+
+           // Destroy(obj, Lifetime);
             yield return new WaitForSeconds(Interval); //interval 후에 다시 호출
         }
     }
