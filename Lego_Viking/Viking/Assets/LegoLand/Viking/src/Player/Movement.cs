@@ -10,9 +10,12 @@ public class Movement : MonoBehaviour
     private float rotateAngle;
     private float rotateSpeed = 10.0f;
 
+    [HideInInspector]
     public Vector3 moveDirection;
+    [HideInInspector]
     public Vector3 rollDirection;
 
+    [HideInInspector]
     public bool isRoll;
 
     private CharacterController characterController;
@@ -57,11 +60,17 @@ public class Movement : MonoBehaviour
 
     public void Roll(Vector3 direction)
     {
-        rollDirection = Vector3.zero;
-        rollDirection.z = direction.z;
-        rollDirection.x += direction.x;
+        //if (direction != Vector3.zero)
+        //{
+        //    rollDirection = Vector3.zero;
+        //    rollDirection.z = direction.z;
+        //    rollDirection.x += direction.x;
+        //    rollDirection.Normalize();
+        //    rollDirection.y = 0.0f;
+        //}
+
+        rollDirection = transform.forward;
         rollDirection.Normalize();
-        rollDirection.y = 0.0f;
 
         Quaternion rollRotation = Quaternion.LookRotation(rollDirection);
         transform.rotation = rollRotation;
