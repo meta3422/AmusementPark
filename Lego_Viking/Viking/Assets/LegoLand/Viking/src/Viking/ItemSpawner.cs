@@ -21,8 +21,6 @@ public class ItemSpawner : MonoBehaviour
             InstantiateItems();
             yield return new WaitForSeconds(Interval);
         }
-        
-        
     }
 
 
