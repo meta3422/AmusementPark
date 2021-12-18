@@ -2,55 +2,58 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundChannel : MonoBehaviour
+namespace BC.Utilites
 {
-    AudioSource audioSource;
-    public AudioClip audioClip;
-
-    public bool IsPlaying
+    public class SoundChannel : MonoBehaviour
     {
-        get => audioSource.isPlaying;
-    }
+        AudioSource audioSource;
+        public AudioClip audioClip;
 
-    public bool Loop
-    {
-        get => audioSource.loop;
-        set => audioSource.loop = value;
-    }
+        public bool IsPlaying
+        {
+            get => audioSource.isPlaying;
+        }
 
-    private void Awake()
-    {
-        audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.loop = false;
-        gameObject.name = "Channel";
-    }
+        public bool Loop
+        {
+            get => audioSource.loop;
+            set => audioSource.loop = value;
+        }
 
-    private void OnEnable()
-    {
-        if (audioClip) audioSource.PlayOneShot(audioClip);
-    }
+        private void Awake()
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.loop = false;
+            gameObject.name = "Channel";
+        }
 
-    private void Update()
-    {
-        if (audioSource.loop) return;
-        if (!audioSource.isPlaying) SoundManager.Instance.WithdrawChannel(this);
-    }
+        private void OnEnable()
+        {
+            if (audioClip) audioSource.PlayOneShot(audioClip);
+        }
 
-    public void Play()
-    {
-        if (audioSource == null) return;
-        if (audioClip == null) return;
-        audioSource.clip = audioClip;
-        audioSource.Play();
-    }
+        private void Update()
+        {
+            if (audioSource.loop) return;
+            if (!audioSource.isPlaying) SoundManager.Instance.WithdrawChannel(this);
+        }
 
-    public void Pause()
-    {
-        audioSource.Pause();
-    }
+        public void Play()
+        {
+            if (audioSource == null) return;
+            if (audioClip == null) return;
+            audioSource.clip = audioClip;
+            audioSource.Play();
+        }
 
-    public void Stop()
-    {
-        audioSource.Stop();
+        public void Pause()
+        {
+            audioSource.Pause();
+        }
+
+        public void Stop()
+        {
+            audioSource.Stop();
+        }
     }
 }
